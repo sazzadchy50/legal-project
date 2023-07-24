@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal</title>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-</body>
+    <style>
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      
+      }
+      .font-garamond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+  <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "font-garamond":' EB Garamond serif',
+              'bg-primary': '#B68C5A',
+              
+            },
+          },
+        },
+      };
+    </script>
+    
+  </head>
+  <body class="font-poppins">
+    <header class="container mx-auto">
+ 
+      <nav>
+        <div class="navbar bg-base-100 mt-12">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box "
+              >
+                <li><a>Home</a></li>
+                
+                <li><a>Service
+                  <i class="fa-solid fa-angle-right"></i>
+                </a></li>
+                <li><a>Cases
+                  <i class="fa-solid fa-angle-right"></i>
+                </a></li>
+                <li><a>Blog
+                  <i class="fa-solid fa-angle-right"></i>
+                </a></li>
+                <li><a>Contact Us
+                  <i class="fa-solid fa-angle-right"></i>
+                </a></li>
+              </ul>
+              
+            </div>
+            <div>
+            <a class="btn btn-ghost mr-4 text-xl">
+              <img src="./images/logo2.png" alt="">
+            </a>
+          </div>
+          </div>
+          <div class=" hidden justify-end lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+                
+              <li><a>Service
+                <i class="fa-solid fa-angle-right"></i>
+              </a></li>
+              <li><a>Cases
+                <i class="fa-solid fa-angle-right"></i>
+              </a></li>
+              <li><a>Blog
+                <i class="fa-solid fa-angle-right"></i>
+              </a></li>
+              <li><a>Contact Us
+                <i class="fa-solid fa-angle-right"></i>
+              </a></li>
+            </ul>
+          </div>
+          <div class="">
+            <a class="btn bg-bg-primary text-white  lg:ml-24">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+   <main></main>
+  
+  </body>
 </html>
